@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 18">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        opacity: 0.397;
+      }
+    </style>
+  </defs>
+  <g id="new_floor" transform="translate(-1269.864 -99.748)">
+    <path id="Exclusion_1" data-name="Exclusion 1" class="cls-1" d="M12,11.583v0L0,5.791,12,0,24,5.791,12,11.58ZM8.544,4.768a1.017,1.017,0,1,0,0,2.033h2.327V9.045a1.031,1.031,0,0,0,1.052,1.005,1.042,1.042,0,0,0,1.052-1.005V6.8H15.3a1.017,1.017,0,1,0,0-2.033H12.975V2.523a1.041,1.041,0,0,0-1.052-1,1.029,1.029,0,0,0-1.052,1V4.768Z" transform="translate(1269.864 99.748)"/>
+    <path id="layers" class="cls-2" d="M12,20.736,3.345,16.288,0,18.008l12,6.167,12-6.167-3.345-1.719Z" transform="translate(1269.866 93.574)"/>
+  </g>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 23">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #00bcd4;
+      }
+    </style>
+  </defs>
+  <g id="down-arrow_6_" data-name="down-arrow (6)" transform="translate(52.304 23) rotate(180)">
+    <g id="Group_4535" data-name="Group 4535" transform="translate(32.304)">
+      <path id="Path_8314" data-name="Path 8314" class="cls-1" d="M52.267,12.75a.478.478,0,0,0-.44-.3H46.6V.479A.478.478,0,0,0,46.127,0H38.5a.478.478,0,0,0-.477.479V12.454H32.781a.479.479,0,0,0-.337.817l9.509,9.588a.476.476,0,0,0,.675,0l9.537-9.588A.48.48,0,0,0,52.267,12.75Z" transform="translate(-32.304)"/>
+    </g>
+  </g>
+</svg>

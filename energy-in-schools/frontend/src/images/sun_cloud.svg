@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35 33">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f38f31;
+      }
+    </style>
+  </defs>
+  <g id="sun_2_" data-name="sun (2)" transform="translate(0 -15.5)">
+    <g id="Group_3151" data-name="Group 3151" transform="translate(20.576 15.5)">
+      <g id="Group_3150" data-name="Group 3150" transform="translate(0 0)">
+        <rect id="Rectangle_3584" data-name="Rectangle 3584" class="cls-1" width="2.051" height="4.185"/>
+      </g>
+    </g>
+    <g id="Group_3153" data-name="Group 3153" transform="translate(30.83 27.918)">
+      <g id="Group_3152" data-name="Group 3152" transform="translate(0 0)">
+        <rect id="Rectangle_3585" data-name="Rectangle 3585" class="cls-1" width="4.17" height="2.058"/>
+      </g>
+    </g>
+    <g id="Group_3155" data-name="Group 3155" transform="translate(27.402 18.76)">
+      <g id="Group_3154" data-name="Group 3154">
+        <path id="Path_6534" data-name="Path 6534" class="cls-1" d="M0,0,4.109-.007l0,2.054L0,2.054Z" transform="translate(0 2.91) rotate(-45)"/>
+      </g>
+    </g>
+    <g id="Group_3157" data-name="Group 3157" transform="translate(11.451 18.76)">
+      <g id="Group_3156" data-name="Group 3156" transform="translate(0 0)">
+        <path id="Path_6535" data-name="Path 6535" class="cls-1" d="M0,0,2.054,0,2.047,4.1l-2.054,0Z" transform="translate(0 1.455) rotate(-45)"/>
+      </g>
+    </g>
+    <g id="Group_3159" data-name="Group 3159" transform="translate(0 25.86)">
+      <g id="Group_3158" data-name="Group 3158">
+        <path id="Path_5593" data-name="Path 5593" class="cls-1" d="M22.627,172.675c-.1,0-.2,0-.291.008a8.181,8.181,0,0,0-16.115,2.05c0,.024,0,.049,0,.073A7.2,7.2,0,0,0,7.246,189.14H22.627a8.233,8.233,0,0,0,0-16.466Z" transform="translate(0 -166.5)"/>
+      </g>
+    </g>
+    <g id="Group_3161" data-name="Group 3161" transform="translate(16.391 21.743)">
+      <g id="Group_3160" data-name="Group 3160" transform="translate(0 0)">
+        <path id="Path_5594" data-name="Path 5594" class="cls-1" d="M244.992,106.5a7.127,7.127,0,0,0-5.21,2.274,10.224,10.224,0,0,1,7.428,6.028,10.116,10.116,0,0,1,4.411,1.656,7.2,7.2,0,0,0-6.629-9.958Z" transform="translate(-239.782 -106.5)"/>
+      </g>
+    </g>
+  </g>
+</svg>

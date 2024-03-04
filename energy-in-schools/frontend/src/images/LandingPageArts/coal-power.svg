@@ -1,0 +1,30 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33 32" width="33" height="32">
+	<title>Layer 1</title>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #ffffff } 
+		.shp1 { fill: #0077c8 } 
+		.shp2 { fill: none;stroke: #ffffff;stroke-width: 1.5 } 
+		.shp3 { fill: #00acdc;stroke: #ffffff;stroke-width: 1.5 } 
+	</style>
+	<g id="Layer 1">
+		<g id="&lt;Group&gt;">
+			<g id="&lt;Group&gt;">
+				<path id="&lt;Compound Path&gt;" fill-rule="evenodd" class="shp0" d="M30.26 29.81L13.16 29.81L16.15 13.77L27.27 13.77L30.26 29.81ZM17.4 15.27L14.96 28.31L28.46 28.31L26.03 15.27L17.4 15.27Z" />
+			</g>
+			<g id="&lt;Group&gt;">
+				<path id="&lt;Path&gt;" class="shp1" d="M3.1 29.06L6.65 9.99L19.67 9.99L23.22 29.06L3.1 29.06Z" />
+				<path id="&lt;Compound Path&gt;" fill-rule="evenodd" class="shp0" d="M24.12 29.81L2.19 29.81L6.03 9.24L20.29 9.24L24.12 29.81ZM7.27 10.74L4 28.31L22.32 28.31L19.04 10.74L7.27 10.74Z" />
+			</g>
+			<g id="&lt;Group&gt;">
+				<path id="&lt;Path&gt;" class="shp2" d="M5.35 16.86L21 16.86" />
+			</g>
+		</g>
+		<g id="&lt;Group&gt;">
+			<path id="&lt;Path&gt;" class="shp1" d="M3.19 31.22C1.87 31.22 0.78 30.14 0.78 28.81C0.78 27.48 1.87 26.4 3.19 26.4C4.52 26.4 5.6 27.48 5.6 28.81C5.6 30.14 4.52 31.22 3.19 31.22Z" />
+			<path id="&lt;Compound Path&gt;" fill-rule="evenodd" class="shp0" d="M6.36 28.81C6.36 30.56 4.94 31.97 3.19 31.97C1.45 31.97 0.03 30.56 0.03 28.81C0.03 27.07 1.45 25.65 3.19 25.65C4.94 25.65 6.36 27.07 6.36 28.81ZM1.53 28.81C1.53 29.73 2.28 30.47 3.19 30.47C4.11 30.47 4.86 29.73 4.86 28.81C4.86 27.9 4.11 27.15 3.19 27.15C2.28 27.15 1.53 27.9 1.53 28.81Z" />
+		</g>
+		<path id="&lt;Path&gt;" class="shp3" d="M20.83 0.75L20.83 0.75C20.83 2.61 19.32 4.12 17.46 4.12L16.23 4.12C14.37 4.12 12.86 5.63 12.86 7.49L12.86 7.49" />
+		<path id="&lt;Path&gt;" class="shp3" d="M31.54 4.92L31.54 4.92C31.54 6.78 30.03 8.29 28.17 8.29L26.93 8.29C25.07 8.29 23.56 9.8 23.56 11.66L23.56 11.66" />
+	</g>
+</svg>

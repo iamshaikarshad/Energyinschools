@@ -1,0 +1,97 @@
+{% extends 'admin/change_list.html' %}
+{% block content %}
+
+    <script type="text/javascript" src="/admin/jsi18n/"></script>
+    <script type="text/javascript" src="/static/admin/js/core.js"></script>
+    <script type="text/javascript" src="/static/admin/js/admin/RelatedObjectLookups.js"></script>
+    <script type="text/javascript" src="/static/admin/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/static/admin/js/jquery.init.js"></script>
+    <script type="text/javascript" src="/static/admin/js/actions.min.js"></script>
+    <script type="text/javascript" src="/static/admin/js/calendar.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="/static/admin/css/forms.css"/>
+    <link rel="stylesheet" type="text/css" href="/static/admin/css/base.css"/>
+    <link rel="stylesheet" type="text/css" href="/static/admin/css/widgets.css"/>
+    <style>
+        .full-width {
+            width: 100%;
+        }
+        .table-row {
+            display: table-row;
+        }
+        .table-cell {
+            display: table-cell;
+        }
+        .padding-left-20 {
+            padding-left: 20px;
+        }
+        .padding-right-20 {
+            padding-right: 20px;
+        }
+        .padding-bottom-10 {
+            padding-bottom: 10px;
+        }
+        #collapsible {
+            display: none;
+        }
+        .lbl-toggle {
+            display: block;
+            padding: 1rem;
+            cursor: pointer;
+            font-weight: 300;
+            font-size: 20px;
+            color: #666;
+        }
+        .lbl-toggle::before {
+            content: ' ';
+            display: inline-block;
+            border-top: 5px solid transparent;
+            border-bottom: 5px solid transparent;
+            border-left: 5px solid currentColor;
+            vertical-align: middle;
+            margin-right: .7rem;
+            transform: translateY(-2px);
+        }
+        .collapsible-content {
+            display: none;
+        }
+        .toggle:checked + .lbl-toggle + .collapsible-content {
+            display: block;
+        }
+        .toggle:checked + .lbl-toggle::before {
+            transform: rotate(90deg) translateX(-3px);
+        }
+    </style>
+    {{ select_date_form.media }}
+    {{ block.super }}
+    <div>
+        <input id="collapsible" class="toggle" type="checkbox" />
+        <label for="collapsible" class="lbl-toggle">
+            Delete items by resource and time range
+        </label>
+        <div class="collapsible-content">
+            <form action="delete_historical_data/" method="post">
+                {% csrf_token %}
+
+                <div>
+                    <div class="table-row">
+                        <div class="table-cell padding-right-20 padding-bottom-10">
+                            <label>{{select_date_form.from_date.label}}</label>
+                            {{ select_date_form.from_date }}
+                        </div>
+                        <div class="table-cell padding-left-20 padding-bottom-10">
+                            <label>{{select_date_form.to_date.label}}</label>
+                            {{ select_date_form.to_date }}
+                        </div>
+                    </div>
+                    <div class="padding-bottom-10">
+                        <label>{{select_date_form.related_resource.label}}</label>
+                        {{ select_date_form.related_resource }}
+                    </div>
+                    <input type="submit" value="Delete">
+                </div>
+
+            </form>
+        </div>
+    </div>
+{% endblock %}

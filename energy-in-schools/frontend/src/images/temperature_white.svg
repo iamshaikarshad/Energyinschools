@@ -1,0 +1,24 @@
+<svg id="thermometer_1_" data-name="thermometer (1)" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11 22">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ffffff;
+      }
+    </style>
+  </defs>
+  <g id="Group_3951" data-name="Group 3951" transform="translate(0)">
+    <g id="Group_3950" data-name="Group 3950">
+      <path id="Path_8069" data-name="Path 8069" class="cls-1" d="M137.167,12.4V3.667a3.667,3.667,0,1,0-7.333,0V12.4a5.5,5.5,0,1,0,7.333,0ZM133.5,20.167a3.667,3.667,0,0,1-2.444-6.4l.611-.547V3.667a1.833,1.833,0,0,1,3.667,0V13.22l.611.547a3.667,3.667,0,0,1-2.444,6.4Z" transform="translate(-128 0)"/>
+    </g>
+  </g>
+  <g id="Group_3953" data-name="Group 3953" transform="translate(4.584 7.335)">
+    <g id="Group_3952" data-name="Group 3952">
+      <rect id="Rectangle_3823" data-name="Rectangle 3823" class="cls-1" width="1.833" height="10.997"/>
+    </g>
+  </g>
+  <g id="Group_3955" data-name="Group 3955" transform="translate(2.751 13.752)">
+    <g id="Group_3954" data-name="Group 3954">
+      <ellipse id="Ellipse_1197" data-name="Ellipse 1197" class="cls-1" cx="2.749" cy="2.749" rx="2.749" ry="2.749"/>
+    </g>
+  </g>
+</svg>

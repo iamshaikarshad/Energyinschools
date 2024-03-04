@@ -1,0 +1,23 @@
+{% extends 'admin/change_list.html' %}
+
+{% block object-tools %}
+    <style>
+        .resolveBtn {
+            background: #79aec8;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            color: #fff;
+            cursor: pointer;
+        }
+        .resolveBtn:hover {
+            background: #609ab6;
+        }
+    </style>
+    <div>
+            <form action="resolve-notifications/" method="POST">
+                {% csrf_token %}
+                <button type="submit" class="resolveBtn">Resolve all active notifications</button>
+            </form>
+    </div>
+{% endblock %}

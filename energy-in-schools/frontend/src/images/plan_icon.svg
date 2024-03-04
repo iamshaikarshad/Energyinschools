@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 375 375">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #393939;
+      }
+    </style>
+  </defs>
+  <g id="plan" transform="translate(0 -0.152)">
+    <g id="Group_4434" data-name="Group 4434" transform="translate(30.645 62.834)">
+      <g id="Group_4433" data-name="Group 4433">
+        <path id="Path_8294" data-name="Path 8294" class="cls-1" d="M65.649,85.179a22.985,22.985,0,0,0-22.985,22.985v61.293H57.987V108.164a7.662,7.662,0,0,1,7.662-7.662H249.528V85.179Z" transform="translate(-42.664 -85.179)"/>
+      </g>
+    </g>
+    <g id="Group_4436" data-name="Group 4436" transform="translate(30.645 212.551)">
+      <g id="Group_4435" data-name="Group 4435">
+        <path id="Path_8295" data-name="Path 8295" class="cls-1" d="M65.649,372.123a7.662,7.662,0,0,1-7.662-7.662V287.845H42.664v76.616a22.985,22.985,0,0,0,22.985,22.985h76.617V372.123Z" transform="translate(-42.664 -287.845)"/>
+      </g>
+    </g>
+    <g id="Group_4438" data-name="Group 4438" transform="translate(0 129.982)">
+      <g id="Group_4437" data-name="Group 4437" transform="translate(0 0)">
+        <path id="Path_8296" data-name="Path 8296" class="cls-1" d="M242.926,358.828,56.855,172.757a7.662,7.662,0,0,0-10.834,0L2.243,216.536a7.662,7.662,0,0,0,0,10.834L188.314,413.44a7.658,7.658,0,0,0,10.833,0l43.778-43.779A7.661,7.661,0,0,0,242.926,358.828Zm-49.2,38.362L18.493,221.953l32.945-32.946L226.676,364.245Z" transform="translate(0 -170.514)"/>
+      </g>
+    </g>
+    <g id="Group_4440" data-name="Group 4440" transform="translate(229.429 298.537)">
+      <g id="Group_4439" data-name="Group 4439">
+        <path id="Path_8297" data-name="Path 8297" class="cls-1" d="M424.255,405.179H309.331V420.5h84.278V458.81a7.663,7.663,0,0,0,7.662,7.663h22.985a30.647,30.647,0,1,0,0-61.293Zm0,45.97H408.932V420.5h15.323a15.323,15.323,0,0,1,0,30.647Z" transform="translate(-309.331 -405.179)"/>
+      </g>
+    </g>
+    <g id="Group_4442" data-name="Group 4442" transform="translate(306.045 68.688)">
+      <g id="Group_4441" data-name="Group 4441">
+        <path id="Path_8298" data-name="Path 8298" class="cls-1" d="M454.306,85.179H416V100.5h38.308a15.323,15.323,0,0,1,15.323,15.323V345.674h15.323V115.825A30.646,30.646,0,0,0,454.306,85.179Z" transform="translate(-415.998 -85.179)"/>
+      </g>
+    </g>
+    <g id="Group_4444" data-name="Group 4444" transform="translate(119.71 221.543)">
+      <g id="Group_4443" data-name="Group 4443" transform="translate(0 0)">
+        <rect id="Rectangle_4189" data-name="Rectangle 4189" class="cls-1" width="32.509" height="15.323" transform="translate(0 22.987) rotate(-45)"/>
+      </g>
+    </g>
+    <g id="Group_4446" data-name="Group 4446" transform="translate(88.4 190.211)">
+      <g id="Group_4445" data-name="Group 4445" transform="translate(0 0)">
+        <rect id="Rectangle_4190" data-name="Rectangle 4190" class="cls-1" width="32.509" height="15.323" transform="translate(0 22.987) rotate(-45)"/>
+      </g>
+    </g>
+    <g id="Group_4448" data-name="Group 4448" transform="translate(151.004 252.875)">
+      <g id="Group_4447" data-name="Group 4447" transform="translate(0 0)">
+        <rect id="Rectangle_4191" data-name="Rectangle 4191" class="cls-1" width="32.509" height="15.323" transform="translate(0 22.987) rotate(-45)"/>
+      </g>
+    </g>
+    <g id="Group_4450" data-name="Group 4450" transform="translate(182.329 284.223)">
+      <g id="Group_4449" data-name="Group 4449" transform="translate(0 0)">
+        <rect id="Rectangle_4192" data-name="Rectangle 4192" class="cls-1" width="32.509" height="15.323" transform="translate(0 22.987) rotate(-45)"/>
+      </g>
+    </g>
+    <g id="Group_4452" data-name="Group 4452" transform="translate(57.067 158.88)">
+      <g id="Group_4451" data-name="Group 4451" transform="translate(0 0)">
+        <rect id="Rectangle_4193" data-name="Rectangle 4193" class="cls-1" width="32.509" height="15.323" transform="translate(0 22.987) rotate(-45)"/>
+      </g>
+    </g>
+    <g id="Group_4454" data-name="Group 4454" transform="translate(176.366 0.153)">
+      <g id="Group_4453" data-name="Group 4453" transform="translate(0 0)">
+        <path id="Path_8299" data-name="Path 8299" class="cls-1" d="M396.809,17.155,386.22,6.567a23.185,23.185,0,0,0-32.018,0L237.7,123.07a7.662,7.662,0,0,0,0,10.834l31.773,31.773a7.658,7.658,0,0,0,10.833,0l116.5-116.5.011-.011A22.633,22.633,0,0,0,396.809,17.155ZM385.983,38.332,274.889,149.425l-20.939-20.939L365.043,17.4a7.486,7.486,0,0,1,10.343,0l10.6,10.581,0,0A7.318,7.318,0,0,1,385.983,38.332Z" transform="translate(-235.456 -0.153)"/>
+      </g>
+    </g>
+    <g id="Group_4456" data-name="Group 4456" transform="translate(156.808 129.099)">
+      <g id="Group_4455" data-name="Group 4455">
+        <path id="Path_8300" data-name="Path 8300" class="cls-1" d="M266.2,202.381l-33.067,11.041L244.168,180.3l-14.557-4.85-15.89,47.663a7.661,7.661,0,0,0,7.271,10.083,7.78,7.78,0,0,0,2.39-.368l47.663-15.89Z" transform="translate(-213.328 -175.451)"/>
+      </g>
+    </g>
+    <g id="Group_4458" data-name="Group 4458" transform="translate(272.622 27.743)">
+      <g id="Group_4457" data-name="Group 4457" transform="translate(0 0)">
+        <rect id="Rectangle_4194" data-name="Rectangle 4194" class="cls-1" width="15.323" height="44.935" transform="translate(0 10.835) rotate(-45)"/>
+      </g>
+    </g>
+    <g id="Group_4460" data-name="Group 4460" transform="translate(165.502 172.054)">
+      <g id="Group_4459" data-name="Group 4459">
+        <rect id="Rectangle_4195" data-name="Rectangle 4195" class="cls-1" width="114.924" height="15.323"/>
+      </g>
+    </g>
+    <g id="Group_4462" data-name="Group 4462" transform="translate(297.124 172.054)">
+      <g id="Group_4461" data-name="Group 4461">
+        <rect id="Rectangle_4196" data-name="Rectangle 4196" class="cls-1" width="15.323" height="15.323"/>
+      </g>
+    </g>
+    <g id="Group_4464" data-name="Group 4464" transform="translate(329.03 172.054)">
+      <g id="Group_4463" data-name="Group 4463">
+        <rect id="Rectangle_4197" data-name="Rectangle 4197" class="cls-1" width="15.323" height="15.323"/>
+      </g>
+    </g>
+  </g>
+</svg>

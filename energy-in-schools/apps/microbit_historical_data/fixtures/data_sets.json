@@ -1,0 +1,32 @@
+[
+  {
+    "model": "microbit_historical_data.microbithistoricaldataset",
+    "pk": 1,
+    "fields": {
+      "namespace": "TheNamespace",
+      "type": 45,
+      "unit_label": "watt",
+      "hub": 1
+    }
+  },
+  {
+    "model": "microbit_historical_data.microbithistoricaldataset",
+    "pk": 2,
+    "fields": {
+      "namespace": "TheNamespace",
+      "type": 42,
+      "unit_label": "some unit",
+      "hub": 1
+    }
+  },
+  {
+    "model": "microbit_historical_data.microbithistoricaldataset",
+    "pk": 3,
+    "fields": {
+      "namespace": "TheNamespace",
+      "type": 42,
+      "unit_label": "some unit",
+      "hub": 1
+    }
+  }
+]

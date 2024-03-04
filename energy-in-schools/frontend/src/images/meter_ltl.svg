@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 23">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="meter_ltl" transform="translate(-60.053)">
+    <g id="Group_4018" data-name="Group 4018" transform="translate(68.363 8.127)">
+      <g id="Group_4017" data-name="Group 4017" transform="translate(0)">
+        <path id="Path_8083" data-name="Path 8083" class="cls-1" d="M241.667,180.925a.675.675,0,1,0,.69.675A.683.683,0,0,0,241.667,180.925Z" transform="translate(-240.977 -180.925)"/>
+      </g>
+    </g>
+    <g id="Group_4020" data-name="Group 4020" transform="translate(62.809 2.695)">
+      <g id="Group_4019" data-name="Group 4019" transform="translate(0)">
+        <path id="Path_8084" data-name="Path 8084" class="cls-1" d="M126.3,60a6.108,6.108,0,1,0,6.244,6.107A6.184,6.184,0,0,0,126.3,60Zm2.068,6.107a2.069,2.069,0,1,1-2.068-2.023,2.094,2.094,0,0,1,.891.2l1.087-1.063.974.953-1.087,1.063A1.974,1.974,0,0,1,128.368,66.111Z" transform="translate(-120.056 -60.004)"/>
+      </g>
+    </g>
+    <g id="Group_4022" data-name="Group 4022" transform="translate(60.053)">
+      <g id="Group_4021" data-name="Group 4021" transform="translate(0)">
+        <path id="Path_8085" data-name="Path 8085" class="cls-1" d="M69.053,0a8.913,8.913,0,0,0-9,8.8,8.836,8.836,0,0,0,6.107,8.336v1.816h5.786V17.138A8.836,8.836,0,0,0,78.053,8.8,8.913,8.913,0,0,0,69.053,0Zm0,16.257A7.548,7.548,0,0,1,61.431,8.8a7.624,7.624,0,0,1,15.244,0A7.548,7.548,0,0,1,69.053,16.257Z" transform="translate(-60.053 0)"/>
+      </g>
+    </g>
+    <g id="Group_4024" data-name="Group 4024" transform="translate(65.241 20.302)">
+      <g id="Group_4023" data-name="Group 4023" transform="translate(0)">
+        <rect id="Rectangle_3873" data-name="Rectangle 3873" class="cls-1" width="7.625" height="2.698"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,11 @@
+[
+  {
+    "model": "energy_meters.energymeter",
+    "pk": 4,
+    "fields": {
+      "meter_id": "fdgdfg",
+      "type": "ELECTRICITY",
+      "provider_account": 1
+    }
+  }
+]

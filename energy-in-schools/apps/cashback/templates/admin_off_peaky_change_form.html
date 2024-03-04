@@ -1,0 +1,9 @@
+{% extends "admin/change_form.html" %}
+
+{% block submit_buttons_bottom %}
+    <div class="submit-row">
+        <label for="calculate-off-peaky">Calculate value automatically</label>
+        <input type="checkbox" name="calculate-off-peaky" id="calculate-off-peaky" />
+    </div>
+    {{ block.super }}
+{% endblock %}

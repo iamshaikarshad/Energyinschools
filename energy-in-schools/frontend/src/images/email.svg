@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 51 38">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #00bcd4;
+      }
+    </style>
+  </defs>
+  <g id="email" transform="translate(0 -66)">
+    <g id="Group_1892" data-name="Group 1892" transform="translate(0 66)">
+      <g id="Group_1891" data-name="Group 1891" transform="translate(0 0)">
+        <path id="Path_667" data-name="Path 667" class="cls-1" d="M46.02,66H4.98A5,5,0,0,0,0,71V99a5,5,0,0,0,4.98,5H46.02A5,5,0,0,0,51,99V71A5,5,0,0,0,46.02,66ZM44.9,68l-3.387,3.4H24.031a1,1,0,0,0,0,2H39.525l-2.789,2.8H29.368a1,1,0,0,0,0,2h5.377l-4.871,4.89a6.174,6.174,0,0,1-8.746,0L6.1,68Zm1.115,34H4.98a2.96,2.96,0,0,1-1.365-.333L8.36,96.9a1,1,0,0,0,0-1.414.993.993,0,0,0-1.409,0l-4.7,4.722A2.992,2.992,0,0,1,1.992,99V71a3,3,0,0,1,1.624-2.668c.021.026.044.051.068.075L18.806,83.589,12.516,89.9a1,1,0,0,0,1.409,1.414l6.313-6.338a8.163,8.163,0,0,0,10.525,0l16.622,16.687A2.962,2.962,0,0,1,46.02,102Zm2.988-3a2.992,2.992,0,0,1-.256,1.212L32.194,83.589,47.316,68.407c.024-.024.046-.049.068-.075A3,3,0,0,1,49.008,71Z" transform="translate(0 -66)"/>
+      </g>
+    </g>
+    <g id="Group_1894" data-name="Group 1894" transform="translate(18.959 71.4)">
+      <g id="Group_1893" data-name="Group 1893" transform="translate(0 0)">
+        <path id="Path_668" data-name="Path 668" class="cls-1" d="M192.03,120.293a1,1,0,1,0,.292.707A1,1,0,0,0,192.03,120.293Z" transform="translate(-190.33 -120)"/>
+      </g>
+    </g>
+    <g id="Group_1896" data-name="Group 1896" transform="translate(9.552 92.294)">
+      <g id="Group_1895" data-name="Group 1895" transform="translate(0 0)">
+        <path id="Path_669" data-name="Path 669" class="cls-1" d="M97.59,329.233a1,1,0,1,0,.291.707A1,1,0,0,0,97.59,329.233Z" transform="translate(-95.89 -328.94)"/>
+      </g>
+    </g>
+  </g>
+</svg>

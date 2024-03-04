@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/c92bd05d-bab8-46b0-ac7b-2fc2622f73b2/microsoft.web/sites/subscriptions/c92bd05d-bab8-46b0-ac7b-2fc2622f73b2/resourceGroups/energyinschools/providers/Microsoft.Web/sites/energy-in-schools-staging",
+    "appService.deploySubpath": "."
+}

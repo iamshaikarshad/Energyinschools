@@ -1,0 +1,10 @@
+{% extends "email/base-email.html" %}
+
+{% block content %}
+  <p>
+    School account was created!<br>
+    Credentials in the attachment <i>credentials.csv</i><br>
+
+    If you want to end training period click <a href="{{ end_training_session_link }}">here</a>
+  </p>
+{% endblock %}

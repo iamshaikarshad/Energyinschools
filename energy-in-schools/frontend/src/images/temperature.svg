@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="Group_4005" data-name="Group 4005" transform="translate(-1398 -297)">
+    <g id="Group_4006" data-name="Group 4006">
+      <g id="Group_1924" data-name="Group 1924" transform="translate(1398 297)">
+        <g id="Group_1923" data-name="Group 1923">
+          <path id="Path_685" data-name="Path 685" class="cls-1" d="M30.728,5.272A18,18,0,0,0,5.272,30.728,18,18,0,0,0,30.728,5.272Zm-.746,24.71A16.945,16.945,0,0,1,6.018,6.018,16.945,16.945,0,0,1,29.982,29.982Z"/>
+        </g>
+      </g>
+      <g id="thermometer_2_" data-name="thermometer (2)" transform="translate(1410.633 302.336)">
+        <path id="Path_8071" data-name="Path 8071" class="cls-1" d="M5.065,0A2.957,2.957,0,0,0,2.111,2.954V17.1a4.643,4.643,0,1,0,7.6,3.575A4.6,4.6,0,0,0,8.019,17.1V2.954A2.957,2.957,0,0,0,5.065,0Zm3.8,20.677a3.8,3.8,0,1,1-6.077-3.033.422.422,0,0,0,.169-.338V16.035H3.8v-.844H2.955V13.925H3.8v-.844H2.955V11.816H3.8v-.844H2.955V9.706H3.8V8.862H2.955V7.6H3.8V6.752H2.955V5.486H3.8V4.642H2.955V2.954a2.11,2.11,0,1,1,4.22,0V17.307a.422.422,0,0,0,.169.337A3.769,3.769,0,0,1,8.863,20.677Zm0,0" transform="translate(0)"/>
+        <path id="Path_8072" data-name="Path 8072" class="cls-1" d="M61.2,102.077V87.266h-.844v14.812a2.11,2.11,0,1,0,.844,0Zm-.422,3.334a1.266,1.266,0,1,1,1.266-1.266A1.266,1.266,0,0,1,60.777,105.411Zm0,0" transform="translate(-55.712 -83.468)"/>
+      </g>
+    </g>
+  </g>
+</svg>

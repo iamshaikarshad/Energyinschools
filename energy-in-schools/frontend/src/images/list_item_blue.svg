@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42 42">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #00bcd4;
+        stroke: #00bcd4;
+      }
+
+      .cls-1 {
+        opacity: 0.113;
+      }
+
+      .cls-2 {
+        opacity: 0.312;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+
+      .cls-4 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="list_item" transform="translate(-333.846 -364.846)">
+    <g id="Rectangle_3995" data-name="Rectangle 3995" class="cls-1" transform="translate(333.846 364.846)">
+      <rect class="cls-3" width="42" height="42" rx="21"/>
+      <rect class="cls-4" x="0.5" y="0.5" width="41" height="41" rx="20.5"/>
+    </g>
+    <g id="Rectangle_4001" data-name="Rectangle 4001" class="cls-2" transform="translate(347.301 378.301)">
+      <rect class="cls-3" width="15.088" height="15.088" rx="7.544"/>
+      <rect class="cls-4" x="0.5" y="0.5" width="14.088" height="14.088" rx="7.044"/>
+    </g>
+  </g>
+</svg>

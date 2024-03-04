@@ -1,0 +1,41 @@
+[
+  {
+    "model": "microbit_variables.microbitvariable",
+    "pk": 1,
+    "fields": {
+      "created_at": "2018-07-06T14:44:42.496Z",
+      "updated_at": "2018-07-06T14:44:42.496Z",
+      "key": "demo_variable",
+      "location": 1,
+      "raspberry": 1,
+      "value": "42",
+      "shared_with": "ALL"
+    }
+  },
+  {
+    "model": "microbit_variables.microbitvariable",
+    "pk": 2,
+    "fields": {
+      "created_at": "2018-07-06T14:44:42.496Z",
+      "updated_at": "2018-07-06T14:44:42.496Z",
+      "key": "demo_variable_2",
+      "location": 1,
+      "raspberry": 1,
+      "value": "44",
+      "shared_with": "SCHOOL"
+    }
+  },
+  {
+    "model": "microbit_variables.microbitvariable",
+    "pk": 3,
+    "fields": {
+      "created_at": "2018-07-06T14:44:42.496Z",
+      "updated_at": "2018-07-06T14:44:42.496Z",
+      "key": "demo_variable_3",
+      "location": 1,
+      "raspberry": 1,
+      "value": "47",
+      "shared_with": "ALL"
+    }
+  }
+]

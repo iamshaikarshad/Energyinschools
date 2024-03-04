@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 37.314">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #00bcd4;
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        fill: #00bcd4;
+      }
+    </style>
+  </defs>
+  <g id="variable" transform="translate(-22.968 1.157)">
+    <path id="Path_8044" data-name="Path 8044" class="cls-1" d="M53.968,26.25V8.75L38.968,0l-15,8.75v17.5l15,8.75ZM30.408,12.507l8.56-4.993,8.56,4.993v9.987l-8.56,4.993-8.56-4.993Z" transform="translate(0)"/>
+    <path id="Path_8045" data-name="Path 8045" class="cls-2" d="M174.831,163.457v-9.409l-8.065-4.7-8.065,4.7v9.409l8.065,4.7Z" transform="translate(-127.798 -141.252)"/>
+  </g>
+</svg>

@@ -1,0 +1,39 @@
+{
+  "minify": true,
+  "options": [
+    "setClasses"
+  ],
+  "feature-detects": [
+    "test/blob",
+    "test/json",
+    "test/svg",
+    "test/css/animations",
+    "test/css/backgroundposition-shorthand",
+    "test/css/backgroundposition-xy",
+    "test/css/backgroundrepeat",
+    "test/css/backgroundsize",
+    "test/css/backgroundsizecover",
+    "test/css/borderradius",
+    "test/css/boxshadow",
+    "test/css/boxsizing",
+    "test/css/calc",
+    "test/css/flexbox",
+    "test/css/fontface",
+    "test/css/gradients",
+    "test/css/mediaqueries",
+    "test/css/opacity",
+    "test/css/pointerevents",
+    "test/css/rgba",
+    "test/css/transforms",
+    "test/css/transitions",
+    "test/css/userselect",
+    "test/file/api",
+    "test/forms/fileinput",
+    "test/iframe/sandbox",
+    "test/network/xhr-responsetype-blob",
+    "test/storage/localstorage",
+    "test/svg/inline",
+    "test/url/data-uri",
+    "test/window/atob-btoa"
+  ]
+}

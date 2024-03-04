@@ -1,0 +1,8 @@
+{% extends "admin/change_form.html" %}
+
+{% block submit_buttons_bottom %}
+    <div class="submit-row">
+        <label>If left blank value for 'Value' field will be calculated automatically</label>
+    </div>
+    {{ block.super }}
+{% endblock %}

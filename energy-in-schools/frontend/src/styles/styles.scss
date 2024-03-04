@@ -1,0 +1,219 @@
+$smWidth: 959px;
+
+@font-face {
+    font-family: NoteWorthy;
+    src: url('../fonts/Noteworthy-Lt.woff');
+}
+
+@font-face {
+    font-family: Inter;
+    font-weight: bold;
+    src: url('../fonts/Inter-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: Inter;
+    font-weight: normal;
+    src: url('../fonts/Inter-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: Inter;
+    font-weight: 600;
+    src: url('../fonts/Inter-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: Lexend;
+    font-weight: 600;
+    src: url('../fonts/Lexend-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: SamsungOne;
+    font-weight: normal;
+    src: url('../fonts/SamsungOne-400_v1.1.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: SamsungOne;
+    font-weight: bold;
+    src: url('../fonts/SamsungOne-700_v1.1.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: SamsungSharpSans;
+    font-weight: bold;
+    src: url('../fonts/SamsungSharpSans-Bold_1.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: SamsungSharpSans;
+    font-weight: 600;
+    src: url('../fonts/SamsungSharpSans-Medium_1.ttf') format('truetype');
+}
+
+.slick-slider * {
+  min-height: 0;
+  min-width: 0;
+}
+
+.slick-slide {
+  height: 100%;
+}
+
+.slick-track {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: stretch;
+  height: 100%;
+
+  .slick-slide > div {
+    height: 100%;
+  }
+}
+
+.slick-slider {
+  display: flex;
+  min-width: 100%;
+  width: 0;
+  height: 100%;
+}
+
+.slick-dots {
+  bottom: -35px;
+}
+
+// landing page styles
+
+.learning-platform-slider-container {
+  .slick-slide.slick-center {
+    transform: scale(1.2, 1.2);
+    opacity: 1;
+  }
+
+  .slick-slide {
+    opacity: 0.4;
+  }
+
+  .slick-dots {
+    bottom: -40px;
+    left: 0px; // for IE compatibility
+    li {
+      margin: 0px 10px;
+    }
+    button::before {
+      font-size: 20px;
+    }
+    button:hover::before {
+      opacity: 0.4;
+    }
+    .slick-active {
+      button::before {
+        color: rgb(0, 188, 212);
+      }
+    }
+  }
+}
+
+// brush styles
+.recharts-cartesian-axis-tick {
+    font-size: 12px;
+    font-family: Roboto, sans-serif;
+}
+
+.recharts-brush-slide {
+  fill: rgb(204, 232, 255);
+  fill-opacity: 1;
+  min-width: 20px;
+}
+
+.recharts-brush > rect:not(.recharts-brush-slide) {
+    stroke: rgb(223, 224, 224);
+    rx: 7;
+    ry: 7
+}
+
+.recharts-brush-traveller {
+  rect {
+    fill: rgb(38, 153, 251) !important;
+  }
+}
+
+.recharts-brush-texts {
+  text {
+    fill: rgb(38, 153, 251);
+  }
+}
+
+// variables search input styles
+.searchVariablesInput {
+  input {
+    width: 80%;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    line-height: 22px;
+    padding: 5px 10px 5px 25px;
+    height: 32px;
+    font-size: 14px;
+    position: relative;
+    &:focus {
+      outline: none;
+      border: 1px solid #00bcd4;
+    }
+    &::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+      opacity: 0.6;
+    }
+    &:-ms-input-placeholder { /* Internet Explorer 10-11 */
+      opacity: 0.6;
+    }
+    &::-ms-input-placeholder { /* Microsoft Edge */
+      opacity: 0.6;
+    }
+  }
+}
+
+// floor plan meter styles
+
+@-webkit-keyframes blink { 
+  50% { transform: scale(1.1); } 
+}
+@keyframes blink { 
+  50% { transform: scale(1.1); } 
+}
+
+.newMapMeter {
+  animation: blink .5s step-end 10 alternate;
+  -webkit-animation: blink .5s step-end 10 alternate;
+}
+
+// various displays media queries
+
+@media screen and (max-width: $smWidth) {
+  // variables search input styles
+  .searchVariablesInput {
+    text-align: center;
+    input {
+      width: 100%
+    }
+  }
+
+  // floor map history slider styles
+  #map-history-slider {
+    .rc-slider-mark-text {
+      .map-history-slider-hour {
+        display: inline-block;
+        transform: translateX(-10px) rotate(-45deg);
+        margin-top: 5px;
+      }
+      .map-history-slider-date {
+        display: inline-block;
+        transform: translate(-5px, -60px);
+      }
+    }
+  } 
+}
+
+body { padding-right: 0 !important }

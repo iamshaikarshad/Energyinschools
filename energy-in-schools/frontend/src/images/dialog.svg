@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35 32">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #00bcd4;
+      }
+    </style>
+  </defs>
+  <g id="dialog_1_" data-name="dialog (1)" transform="translate(0 -19.393)">
+    <g id="Group_4526" data-name="Group 4526" transform="translate(0 19.393)">
+      <g id="Group_4525" data-name="Group 4525" transform="translate(0 0)">
+        <path id="Path_8311" data-name="Path 8311" class="cls-1" d="M30.357,27.9H25V24a4.632,4.632,0,0,0-4.643-4.61H4.643A4.632,4.632,0,0,0,0,24v7.092a4.63,4.63,0,0,0,4.286,4.6v7.192L10,37.209v2.4a4.632,4.632,0,0,0,4.643,4.61h8.842l7.229,7.178V44.2A4.63,4.63,0,0,0,35,39.605V32.513A4.632,4.632,0,0,0,30.357,27.9ZM10,32.513V34.2L6.429,37.746V33.577H4.643a2.494,2.494,0,0,1-2.5-2.482V24a2.494,2.494,0,0,1,2.5-2.482H20.357A2.494,2.494,0,0,1,22.857,24v3.9H14.643A4.632,4.632,0,0,0,10,32.513Zm22.857,7.092a2.494,2.494,0,0,1-2.5,2.482H28.571v4.169l-4.2-4.169h-9.73a2.494,2.494,0,0,1-2.5-2.482V32.513a2.494,2.494,0,0,1,2.5-2.482H30.357a2.494,2.494,0,0,1,2.5,2.482Z" transform="translate(0 -19.393)"/>
+        <rect id="Rectangle_4212" data-name="Rectangle 4212" class="cls-1" width="14.279" height="2.142" transform="translate(15.362 13.468)"/>
+        <rect id="Rectangle_4213" data-name="Rectangle 4213" class="cls-1" width="14.279" height="2.142" transform="translate(15.362 17.722)"/>
+      </g>
+    </g>
+  </g>
+</svg>

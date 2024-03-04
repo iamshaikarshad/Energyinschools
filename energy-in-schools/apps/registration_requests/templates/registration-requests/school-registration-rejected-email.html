@@ -1,0 +1,6 @@
+{% extends "email/base-email.html" %}
+
+{% block content %}
+    Unfortunately, your registration request was rejected with next message:
+    {{ reject_reason }}
+{% endblock %}

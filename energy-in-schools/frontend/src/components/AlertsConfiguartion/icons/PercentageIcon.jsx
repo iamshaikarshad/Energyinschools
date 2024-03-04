@@ -1,0 +1,56 @@
+import React from 'react';
+import PropTypes from 'prop-types';
+import SvgIcon from '@material-ui/core/SvgIcon';
+
+const PercentageIcon = ({ colour, ...props }) => (
+  <SvgIcon viewBox="0 0 35 35" {...props}>
+    <g id="percentage" transform="translate(-0.012)">
+      <g id="Group_4066" data-name="Group 4066" transform="translate(20.531 20.524)">
+        <g id="Group_4065" data-name="Group 4065">
+          <path
+            id="Path_8105"
+            fill={colour}
+            data-name="Path 8105"
+            className="cls-1"
+            d="M302.212,300.244a2.032,2.032,0,1,0,2.032,2.032A2.034,2.034,0,0,0,302.212,300.244Z"
+            transform="translate(-300.18 -300.244)"
+          />
+        </g>
+      </g>
+      <g id="Group_4068" data-name="Group 4068" transform="translate(10.405 10.399)">
+        <g id="Group_4067" data-name="Group 4067">
+          <path
+            fill={colour}
+            id="Path_8106"
+            data-name="Path 8106"
+            className="cls-1"
+            d="M154.072,152.116a2.032,2.032,0,1,0,2.031,2.032A2.034,2.034,0,0,0,154.072,152.116Z"
+            transform="translate(-152.04 -152.116)"
+          />
+        </g>
+      </g>
+      <g id="Group_4070" data-name="Group 4070" transform="translate(0.012)">
+        <g id="Group_4069" data-name="Group 4069">
+          <path
+            fill={colour}
+            id="Path_8107"
+            data-name="Path 8107"
+            className="cls-1"
+            d="M17.512,0a17.5,17.5,0,1,0,17.5,17.5A17.519,17.519,0,0,0,17.512,0ZM12.437,8.209a4.221,4.221,0,1,1-4.221,4.221A4.226,4.226,0,0,1,12.437,8.209Zm-1.283,17.2a1.094,1.094,0,0,1-1.548-1.548L23.869,9.594a1.095,1.095,0,0,1,1.548,1.548Zm11.41,1.372a4.221,4.221,0,1,1,4.221-4.221A4.226,4.226,0,0,1,22.563,26.777Z"
+            transform="translate(-0.012)"
+          />
+        </g>
+      </g>
+    </g>
+  </SvgIcon>
+);
+
+PercentageIcon.propTypes = {
+  colour: PropTypes.string,
+};
+
+PercentageIcon.defaultProps = {
+  colour: '#fff',
+};
+
+export default PercentageIcon;

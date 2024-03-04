@@ -1,0 +1,82 @@
+[
+  {
+    "model": "resources.resource",
+    "pk": 1,
+    "fields": {
+      "created_at": "2018-11-08T13:37:22.904Z",
+      "updated_at": "2018-11-08T13:37:22.904Z",
+      "name": "TestDataSet",
+      "description": "The data set",
+      "sub_location": 1,
+      "child_type": "microbit_historical_data_set",
+      "supported_data_collection_methods": "[\"push\"]",
+      "preferred_data_collection_method": "push",
+      "unit": "watt",
+      "detailed_time_resolution": "second",
+      "long_term_time_resolution": "half_hour",
+      "detailed_data_live_time": null,
+      "last_detailed_data_add_time": null,
+      "last_long_term_data_add_time": null
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 2,
+    "fields": {
+      "created_at": "2018-11-08T14:17:11.767Z",
+      "updated_at": "2018-11-08T14:17:11.767Z",
+      "name": "CustomDataSet",
+      "description": "custom",
+      "sub_location": 1,
+      "child_type": "microbit_historical_data_set",
+      "supported_data_collection_methods": "[\"push\"]",
+      "preferred_data_collection_method": "push",
+      "unit": "unknown",
+      "detailed_time_resolution": "second",
+      "long_term_time_resolution": "half_hour",
+      "detailed_data_live_time": null,
+      "last_detailed_data_add_time": null,
+      "last_long_term_data_add_time": null
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 3,
+    "fields": {
+      "created_at": "2018-11-08T14:54:41.229Z",
+      "updated_at": "2018-11-08T14:54:41.229Z",
+      "name": "DataSet2",
+      "description": "Desc",
+      "sub_location": 1,
+      "child_type": "microbit_historical_data_set",
+      "supported_data_collection_methods": "[\"push\"]",
+      "preferred_data_collection_method": "push",
+      "unit": "unknown",
+      "detailed_time_resolution": "second",
+      "long_term_time_resolution": "half_hour",
+      "detailed_data_live_time": null,
+      "last_detailed_data_add_time": null,
+      "last_long_term_data_add_time": null
+    }
+  },
+  {
+    "model": "resources.resource",
+    "pk": 4,
+    "fields": {
+      "created_at": "2018-11-12T13:04:52.216Z",
+      "updated_at": "2018-11-12T16:15:17.732Z",
+      "name": "Dummy Meter",
+      "description": "Dummy Meter",
+      "sub_location": 1,
+      "child_type": "energy_meter",
+      "supported_data_collection_methods": "[\"pull\"]",
+      "preferred_data_collection_method": "pull",
+      "unit": "watt",
+      "detailed_time_resolution": "twenty_seconds",
+      "long_term_time_resolution": "half_hour",
+      "detailed_data_live_time": "4 00:00:00",
+      "last_detailed_data_add_time": "2018-11-12T16:15:00Z",
+      "last_long_term_data_add_time": "2018-11-12T16:00:00Z"
+    }
+  }
+]

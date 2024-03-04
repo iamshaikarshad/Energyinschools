@@ -1,0 +1,1 @@
+default_app_config = 'apps.energy_meters_billing_info.apps.EnergyMetersBillingInfoConfig'

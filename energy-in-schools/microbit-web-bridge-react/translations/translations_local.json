@@ -1,0 +1,173 @@
+{
+    "version":1,
+    "init":{
+        "POST" : {
+            "apiPrefix":"set",
+            "microbitQueryString":"/%endpoint%/",
+            "endpoint":{
+                "schoolId":{
+                    "parameters":[
+                        {
+                            "name":"schoolid",
+                            "type":"string"
+                        }
+                    ],
+                    "returns":[
+                        {
+                            "type":"string",
+                            "name":"result"
+                        }
+                    ]
+                },
+                "piId":{
+                    "parameters":[
+                        {
+                            "name":"piid",
+                            "type":"string"
+                        }
+                    ],
+                    "returns":[
+                        {
+                            "type":"string",
+                            "name":"result"
+                        }
+                    ]
+                },
+                "reset":{
+                    "parameters":[
+                        {
+                            "name":"reset",
+                            "type":"string"
+                        }
+                    ],
+                    "returns":[
+                        {
+                            "type":"string",
+                            "name":"result"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "energy":{
+        "GET" : {
+            "apiPrefix":"get",
+            "baseURL":"http://127.0.0.1:8000/api/v1/energy-meters/aggregated-consumption",
+            "microbitQueryString":"/%endpoint%/%unit?%/%location_uid?%/%type?%/%period_type?%/%periods_ago?%",
+            "compulsoryParameters":[
+                {
+                    "name":"endpoint",
+                    "type":"string"
+                }
+            ],
+            "endpoint":{
+                "nrgLvl":{
+                    "jspath": ".value",
+                    "returns":[
+                        {
+                            "type":"string",
+                            "name":"status"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "weather":{
+        "GET" : {
+            "apiPrefix":"get",
+            "baseURL":"http://127.0.0.1:8000/api/v1/weathers/open/",
+            "microbitQueryString":"/%filter_type%/%filter%/%country%/%endpoint%/",
+            "compulsoryParameters":[
+                {
+                    "name":"endpoint",
+                    "type":"string"
+                }
+            ],
+            "endpoint":{
+                "forecastNow": {
+                    "jspath": ".current_weather.weather",
+                    "returns":[
+                        {
+                            "type":"string",
+                            "name":"weather"
+                        }
+                    ]
+                },
+                "forecastTomorrow": {
+                    "jspath": ".tomorrow_forecast.weather",
+                    "returns":[
+                        {
+                            "type":"string",
+                            "name":"weather"
+                        }
+                    ]
+                },
+                "temperature": {
+                    "jspath": ".current_weather.temperature",
+                    "returns":[
+                        {
+                            "type":"string",
+                            "name":"temperature"
+                        }
+                    ]
+                },
+                "wind": {
+                    "jspath": ".current_weather.wind_direction",
+                    "returns":[
+                        {
+                            "type":"string",
+                            "name":"wind_direction"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "carbon":{
+        "GET" : {
+            "apiPrefix":"get",
+            "baseURL":"https://api.carbonintensity.org.uk/%api_endpoint?=intensity%",
+            "microbitQueryString":"/%endpoint%/%unit?%",
+            "compulsoryParameters":[
+                {
+                    "name":"endpoint",
+                    "type":"string"
+                }
+            ],
+            "endpoint":{
+                "index":{
+                    "jspath": ".data.intensity.index",
+                    "returns":[
+                        {
+                            "type":"string",
+                            "name":"index"
+                        }
+                    ]
+                },
+                "value":{
+                    "jspath": ".data.intensity.actual",
+                    "returns":[
+                        {
+                            "type":"string",
+                            "name":"value"
+                        }
+                    ]
+                },
+                "genmix":{
+                    "jspath": ".data.generationmix.{.fuel === '%unit%'}.perc",
+                    "queryObject": {
+                        "api_endpoint": "generation"
+                    },
+                    "returns":[
+                        {
+                            "type":"string",
+                            "name":"level"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{% extends "email/base-email.html" %}
+
+{% block content %}
+  <p>
+    Many thanks for completing the registration for the energy in schools portal. We will be reviewing all applications
+    over the next few weeks and will be in touch if we need any more information about your school. In the meantime if
+    you have any questions about the project please email
+    <a href="mailto:smartenergy@samsung.com">smartenergy@samsung.com</a>.
+  </p>
+
+  <p>Click <a href="{{ registration_request_status_link }}">here</a> to see status of the request.</p>
+{% endblock %}

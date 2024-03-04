@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+{% load util %}
+<html>
+    <head>
+        <style>
+            div {
+                font-family: Verdana, Geneva, Tahoma, sans-serif; 
+            }
+            th, td {
+                text-align: center;
+                padding: 8px;
+            }
+            table {
+                border-collapse: collapse;
+                width: 100%;
+                min-width: 100%;
+            }
+            .with_border {
+                border: 1px solid #dddddd;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <table cellspacing="0" cellpadding="0" border="0" align="left">
+                <tbody>
+                    <tr>
+                        <td style="padding: 0px; text-align: center;" valign="top">
+                            <h1>{{ email_title }}</h1>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        {% include 'daily_report/data_title_template.html' with data_title='SmartApps Connectivity Status' %}
+        <div>
+            <table>
+                <thead>
+                    <tr>
+                        {% for smart_app_status in smart_apps.data.keys %}
+                            <th class="with_border">
+                                {{ smart_app_status }}
+                            </th>
+                        {% endfor %}
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="with_border">
+                        {% for schools_list in smart_apps.data.values %}
+                            {% if schools_list|length >= 1 %}
+                                <td class="with_border">
+                                    {% for school in schools_list %}
+                                        {% if forloop.last %}
+                                            {{ school }}
+                                        {% else %}
+                                            {{ school }},
+                                        {% endif %}
+                                    {% endfor %}
+                                </td>
+                            {% else %}
+                                <td class="with_border">
+                                    Not found
+                                </td>
+                            {% endif %}
+                        {% endfor %}
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        {% include 'daily_report/data_title_template.html' with data_title='Energy meters' %}
+        <div>
+            <table align="left">
+                <thead>
+                    <tr>
+                        <th class="with_border"></th>
+                        <th class="with_border">Energy meters</th>
+                        <th class="with_border">SmartThings energy meters</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for school_name, school_data in energy_meters.data.items %}
+                        <tr>
+                            <th class="with_border">
+                                <em>{{ school_name }}</em>
+                            </th>
+                            {% for meter_data in school_data.values %}
+                                <td class="with_border">
+                                    <table align="left">
+                                        <tbody>
+                                            <tr>
+                                                {% if meter_data %}
+                                                    <td>
+                                                        <table align="left">
+                                                            <thead>
+                                                                <tr>
+                                                                    <th class="with_border">Total</th>
+                                                                    <th class="with_border">Online</th>
+                                                                    <th class="with_border" style="color: #FF0000">
+                                                                        Offline
+                                                                    </th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                <tr>
+                                                                    {% for meter_connectivity_status in meter_data.values %}
+                                                                        {% if meter_connectivity_status|is_iterable %}
+                                                                            <td class="with_border" style="text-align: left;">
+                                                                                <ul>
+                                                                                    {% for meter in meter_connectivity_status %}
+                                                                                        <li>{{ meter }}</li>
+                                                                                    {% endfor %}
+                                                                                </ul>
+                                                                            </td>
+                                                                        {% else %}
+                                                                            <td class="with_border">{{ meter_connectivity_status }}</td>
+                                                                        {% endif %}
+                                                                    {% endfor %}
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </td>
+                                                {% else %}
+                                                    <td style="border: 0; color:#FF0000;">No data</td>
+                                                {% endif %}
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            {% endfor %}
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+        {% include 'daily_report/data_title_template.html' with data_title='Data flow' %}
+        <div>
+            <table align="left">
+                <thead>
+                    <tr>
+                        {% for meter_data_label in data_flow.keys %}
+                            <th class="with_border">{{ meter_data_label }}</th>
+                        {% endfor %}
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for school, school_data in data_flow.data.items %}
+                        <tr>
+                            <th class="with_border">
+                                <em>{{ school }}</em>
+                            </th>
+                            {% for data_flow in school_data.values %}
+                                {% if data_flow %}
+                                    <td>
+                                        <table align="left">
+                                            <thead>
+                                                <tr>
+                                                    {% for data_label in data_flow.keys %}
+                                                        <th class="with_border">{{ data_label|title }}</th>
+                                                    {% endfor %}
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    {% for data in data_flow.values %}
+                                                        {% if data|has_consumption %}
+                                                            <td class="with_border">{{ data|transform_consumption_data }}</td>
+                                                        {% else %}
+                                                            <td class="with_border" style="color: #FF0000">No data</td>
+                                                        {% endif %}
+                                                    {% endfor %}
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                {% else %}
+                                    <td class="with_border" style="color: #FF0000">No data</td>
+                                {% endif %}
+                            {% endfor %}
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+        {% include 'daily_report/data_title_template.html' with data_title='Battery health' %}
+        <div>
+            <table align="left">
+                <thead>
+                    <tr>
+                        {% for key in battery_health.keys %}
+                            <th class="with_border">{{ key }}</th>   
+                        {% endfor %}
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for data_set in battery_health.data %}
+                        <tr>
+                            {% for item in data_set %}
+                                <td class="with_border">{{ item }}</td>
+                            {% endfor %}
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </body>
+</html>

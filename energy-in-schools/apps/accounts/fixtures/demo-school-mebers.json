@@ -1,0 +1,117 @@
+[
+  {
+    "model": "accounts.user",
+    "pk": 2,
+    "fields": {
+      "password": "pbkdf2_sha256$100000$GbDeKaYaKjrT$E7nWd8qlMwEsFx6U5N/+o6pTB7LlP0M3ymtAhuxSY14=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "demo_school_sle_admin",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2018-07-06T12:52:31Z",
+      "created_at": "2018-07-06T12:52:31.777Z",
+      "updated_at": "2018-07-06T12:52:44.918Z",
+      "location": 1,
+      "groups": [
+        1
+      ],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "accounts.user",
+    "pk": 3,
+    "fields": {
+      "password": "pbkdf2_sha256$100000$Ka0GGrgrpKhN$3SR0Z8BMv55kP38/krU/husDcyrhvMkTHpWzxEqO8zM=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "demo_school_sem_admin",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2018-07-06T12:53:03Z",
+      "created_at": "2018-07-06T12:53:03.492Z",
+      "updated_at": "2018-07-06T14:03:36.379Z",
+      "location": 1,
+      "groups": [
+        2
+      ],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "accounts.user",
+    "pk": 4,
+    "fields": {
+      "password": "pbkdf2_sha256$100000$f5BSPHUCEX8P$Gz1mpSv72QH1ojYGRDF9iCHhbe9s5ETxjAeCKLUa+5Y=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "demo_school_teacher",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2018-07-06T12:53:19Z",
+      "created_at": "2018-07-06T12:53:19.944Z",
+      "updated_at": "2018-07-06T14:03:53.239Z",
+      "location": 1,
+      "groups": [
+        3
+      ],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "accounts.user",
+    "pk": 5,
+    "fields": {
+      "password": "pbkdf2_sha256$100000$15SCDVNCtDRS$44ULhZo67RO9x1NjzyvmZEucsiUYmKzXNK4q5EIJ1E4=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "demo_school_pupil",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2018-07-06T12:53:36Z",
+      "created_at": "2018-07-06T12:53:36.821Z",
+      "updated_at": "2018-07-06T14:03:24.643Z",
+      "location": 1,
+      "groups": [
+        4
+      ],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "accounts.user",
+    "pk": 7,
+    "fields": {
+      "password": "",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "demo_school_es_user",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2018-07-06T12:53:36Z",
+      "created_at": "2018-07-06T12:53:36.821Z",
+      "updated_at": "2018-07-06T14:03:24.643Z",
+      "location": 1,
+      "groups": [
+        5
+      ],
+      "user_permissions": []
+    }
+  }
+]

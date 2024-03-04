@@ -1,0 +1,22 @@
+[
+  {
+  "model": "lesson_plans.lessonplan",
+  "pk": 1,
+  "fields": {
+    "created_at": "2019-03-18T09:04:35.064Z",
+    "updated_at": "2019-03-18T09:04:35.064Z",
+    "session_number": 1,
+    "title": "category_title",
+    "content": "<p>HTML body</p>",
+    "plan_material": "lesson-plans/plan.jpg",
+    "duration": "55 minutes",
+    "overview": "lesson overview",
+    "key_information": "key information",
+    "lesson_topics": "lesson topics",
+    "lesson_avatar": "lesson-plans/plan.jpg",
+    "lesson_group": 1,
+    "description": "lesson plan description",
+    "lesson_label": "lesson"
+  }
+  }
+]

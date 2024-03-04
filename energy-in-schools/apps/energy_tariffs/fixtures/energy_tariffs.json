@@ -1,0 +1,287 @@
+[
+  {
+    "model": "energy_tariffs.energytariff",
+    "pk": 1,
+    "fields": {
+      "created_at": "2018-11-26T18:44:51.866Z",
+      "updated_at": "2018-11-26T18:44:51.867Z",
+      "type": "normal",
+      "provider_account": 1,
+      "resource": null,
+      "meter_type": "ELECTRICITY",
+      "active_time_start": "07:00:00",
+      "active_time_end": "23:00:00",
+      "active_date_start": "2017-01-01",
+      "active_date_end": "2018-12-31",
+      "watt_hour_cost": 0.00010164,
+      "daily_fixed_cost": 0.168690411,
+      "monthly_fixed_cost": 0.0
+    }
+  },
+  {
+    "model": "energy_tariffs.energytariff",
+    "pk": 2,
+    "fields": {
+      "created_at": "2018-11-26T18:44:51.866Z",
+      "updated_at": "2018-11-26T18:44:51.867Z",
+      "type": "normal",
+      "provider_account": 1,
+      "resource": null,
+      "meter_type": "ELECTRICITY",
+      "active_time_start": "07:00:00",
+      "active_time_end": "23:00:00",
+      "active_date_start": "2019-01-01",
+      "active_date_end": "2019-12-31",
+      "watt_hour_cost": 0.0001301,
+      "daily_fixed_cost": 0.4925589041,
+      "monthly_fixed_cost": 0.0
+    }
+  },
+  {
+    "model": "energy_tariffs.energytariff",
+    "pk": 3,
+    "fields": {
+      "created_at": "2018-11-26T18:44:51.866Z",
+      "updated_at": "2018-11-26T18:44:51.867Z",
+      "type": "normal",
+      "provider_account": 1,
+      "resource": null,
+      "meter_type": "ELECTRICITY",
+      "active_time_start": "23:00:00",
+      "active_time_end": null,
+      "active_date_start": "2019-01-01",
+      "active_date_end": "2019-12-31",
+      "watt_hour_cost": 9.342e-05,
+      "daily_fixed_cost": 0.4925589041,
+      "monthly_fixed_cost": 0.0
+    }
+  },
+  {
+    "model": "energy_tariffs.energytariff",
+    "pk": 4,
+    "fields": {
+      "created_at": "2018-11-26T18:44:51.866Z",
+      "updated_at": "2018-11-26T18:44:51.867Z",
+      "type": "normal",
+      "provider_account": 1,
+      "resource": null,
+      "meter_type": "ELECTRICITY",
+      "active_time_start": "00:00:00",
+      "active_time_end": "07:00:00",
+      "active_date_start": "2019-01-01",
+      "active_date_end": "2019-12-31",
+      "watt_hour_cost": 9.342e-05,
+      "daily_fixed_cost": 0.4925589041,
+      "monthly_fixed_cost": 0.0
+    }
+  },
+  {
+    "model": "energy_tariffs.energytariff",
+    "pk": 5,
+    "fields": {
+      "created_at": "2018-11-26T18:44:51.866Z",
+      "updated_at": "2018-11-26T18:44:51.867Z",
+      "type": "normal",
+      "provider_account": 1,
+      "resource": null,
+      "meter_type": "ELECTRICITY",
+      "active_time_start": "00:00:00",
+      "active_time_end": "07:00:00",
+      "active_date_start": "2017-01-01",
+      "active_date_end": "2018-12-31",
+      "watt_hour_cost": 6.703e-05,
+      "daily_fixed_cost": 0.168690411,
+      "monthly_fixed_cost": 0.0
+    }
+  },
+  {
+    "model": "energy_tariffs.energytariff",
+    "pk": 6,
+    "fields": {
+      "created_at": "2018-11-26T18:44:51.866Z",
+      "updated_at": "2018-11-26T18:44:51.867Z",
+      "type": "normal",
+      "provider_account": 1,
+      "resource": null,
+      "meter_type": "ELECTRICITY",
+      "active_time_start": "23:00:00",
+      "active_time_end": null,
+      "active_date_start": "2017-01-01",
+      "active_date_end": "2018-12-31",
+      "watt_hour_cost": 6.703e-05,
+      "daily_fixed_cost": 0.168690411,
+      "monthly_fixed_cost": 0.0
+    }
+  },
+  {
+    "model": "energy_tariffs.energytariff",
+    "pk": 7,
+    "fields": {
+      "created_at": "2018-11-26T18:44:51.866Z",
+      "updated_at": "2018-11-26T18:44:51.867Z",
+      "type": "cash_back_tariff",
+      "provider_account": 1,
+      "resource": null,
+      "meter_type": "ELECTRICITY",
+      "active_time_start": "07:00:00",
+      "active_time_end": "23:00:00",
+      "active_date_start": "2017-01-01",
+      "active_date_end": null,
+      "watt_hour_cost": 0.0001432,
+      "daily_fixed_cost": 0.0,
+      "monthly_fixed_cost": 0.0
+    }
+  },
+  {
+    "model": "energy_tariffs.energytariff",
+    "pk": 8,
+    "fields": {
+      "created_at": "2018-11-26T18:44:51.866Z",
+      "updated_at": "2018-11-26T18:44:51.867Z",
+      "type": "cash_back_tariff",
+      "provider_account": 1,
+      "resource": null,
+      "meter_type": "ELECTRICITY",
+      "active_time_start": "23:00:00",
+      "active_time_end": null,
+      "active_date_start": "2017-01-01",
+      "active_date_end": null,
+      "watt_hour_cost": 0.0001009,
+      "daily_fixed_cost": 0.0,
+      "monthly_fixed_cost": 0.0
+    }
+  },
+  {
+    "model": "energy_tariffs.energytariff",
+    "pk": 9,
+    "fields": {
+      "created_at": "2018-11-26T18:44:51.866Z",
+      "updated_at": "2018-11-26T18:44:51.867Z",
+      "type": "cash_back_tariff",
+      "provider_account": 1,
+      "resource": null,
+      "meter_type": "ELECTRICITY",
+      "active_time_start": "00:00:00",
+      "active_time_end": "07:00:00",
+      "active_date_start": "2017-01-01",
+      "active_date_end": null,
+      "watt_hour_cost": 0.0001009,
+      "daily_fixed_cost": 0.0,
+      "monthly_fixed_cost": 0.0
+    }
+  },
+  {
+    "model": "energy_tariffs.energytariff",
+    "pk": 10,
+    "fields": {
+      "created_at": "2018-11-26T18:44:51.866Z",
+      "updated_at": "2018-11-26T18:44:51.867Z",
+      "type": "cash_back_tou",
+      "provider_account": 1,
+      "resource": null,
+      "meter_type": "ELECTRICITY",
+      "active_time_start": "07:00:00",
+      "active_time_end": "16:00:00",
+      "active_date_start": "2017-01-01",
+      "active_date_end": null,
+      "watt_hour_cost": 0.0001203,
+      "daily_fixed_cost": 0.0,
+      "monthly_fixed_cost": 0.0
+    }
+  },
+  {
+    "model": "energy_tariffs.energytariff",
+    "pk": 11,
+    "fields": {
+      "created_at": "2018-11-26T18:44:51.866Z",
+      "updated_at": "2018-11-26T18:44:51.867Z",
+      "type": "cash_back_tou",
+      "provider_account": 1,
+      "resource": null,
+      "meter_type": "ELECTRICITY",
+      "active_time_start": "16:00:00",
+      "active_time_end": "19:00:00",
+      "active_date_start": "2017-01-01",
+      "active_date_end": null,
+      "watt_hour_cost": 0.00035,
+      "daily_fixed_cost": 0.0,
+      "monthly_fixed_cost": 0.0
+    }
+  },
+  {
+    "model": "energy_tariffs.energytariff",
+    "pk": 12,
+    "fields": {
+      "created_at": "2018-11-26T18:44:51.866Z",
+      "updated_at": "2018-11-26T18:44:51.867Z",
+      "type": "cash_back_tou",
+      "provider_account": 1,
+      "resource": null,
+      "meter_type": "ELECTRICITY",
+      "active_time_start": "19:00:00",
+      "active_time_end": "23:00:00",
+      "active_date_start": "2017-01-01",
+      "active_date_end": null,
+      "watt_hour_cost": 0.0001203,
+      "daily_fixed_cost": 0.0,
+      "monthly_fixed_cost": 0.0
+    }
+  },
+  {
+    "model": "energy_tariffs.energytariff",
+    "pk": 13,
+    "fields": {
+      "created_at": "2018-11-26T18:44:51.866Z",
+      "updated_at": "2018-11-26T18:44:51.867Z",
+      "type": "cash_back_tou",
+      "provider_account": 1,
+      "resource": null,
+      "meter_type": "ELECTRICITY",
+      "active_time_start": "23:00:00",
+      "active_time_end": null,
+      "active_date_start": "2017-01-01",
+      "active_date_end": null,
+      "watt_hour_cost": 9.5e-05,
+      "daily_fixed_cost": 0.0,
+      "monthly_fixed_cost": 0.0
+    }
+  },
+  {
+    "model": "energy_tariffs.energytariff",
+    "pk": 14,
+    "fields": {
+      "created_at": "2018-11-26T18:44:51.866Z",
+      "updated_at": "2018-11-26T18:44:51.867Z",
+      "type": "cash_back_tou",
+      "provider_account": 1,
+      "resource": null,
+      "meter_type": "ELECTRICITY",
+      "active_time_start": "00:00:00",
+      "active_time_end": "07:00:00",
+      "active_date_start": "2017-01-01",
+      "active_date_end": null,
+      "watt_hour_cost": 9.5e-05,
+      "daily_fixed_cost": 0.0,
+      "monthly_fixed_cost": 0.0
+    }
+  },
+  {
+    "model": "energy_tariffs.energytariff",
+    "pk": 15,
+    "fields": {
+      "created_at": "2018-11-26T18:44:51.866Z",
+      "updated_at": "2018-11-26T18:44:51.867Z",
+      "type": "normal",
+      "provider_account": 1,
+      "resource": null,
+      "meter_type": "GAS",
+      "active_time_start": "00:00:00",
+      "active_time_end": null,
+      "active_date_start": "2018-10-01",
+      "active_date_end": "2019-09-30",
+      "watt_hour_cost": 2.51e-05,
+      "daily_fixed_cost": 1.964,
+      "monthly_fixed_cost": 0.0
+    }
+  }
+]
